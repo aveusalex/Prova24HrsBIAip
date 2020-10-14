@@ -45,7 +45,7 @@ def main():
         valor = valores[index]
         preco += calcula_fracao(valor, lista_massas[0], lista_massas[1])
 
-    preco = 1.5 * preco
+    preco = 1.15 * preco
 
     print(f"\n\nO custo de cada fornada de pão integral é: R${preco:.2f}")
 
